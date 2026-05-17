@@ -17,6 +17,7 @@ export const metadata: Metadata = {
     languages: { en: "/", "zh-CN": "/", "x-default": "/" },
   },
   openGraph: {
+    images: [{ url: "/opengraph-image.png", width: 1200, height: 630, alt: "Happy Crush · 开心消消乐 — Match-3 Puzzle Game" }],
     title: "Happy Crush · 开心消消乐",
     description:
       "Match-3 candy crush in your browser. Cascading combos, power-ups, 50 levels, leaderboard. Connect Joy, Eliminate Stress.",
@@ -27,6 +28,7 @@ export const metadata: Metadata = {
     alternateLocale: ["zh_CN"],
   },
   twitter: {
+    images: ["/twitter-image.png"],
     card: "summary_large_image",
     title: "Happy Crush · 开心消消乐",
     description:
